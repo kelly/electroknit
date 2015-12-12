@@ -1,0 +1,13 @@
+{
+  "name": "electroknit",
+  "version": "0.0.1",
+  "description": "Javascript implementation of knitic for the electroknit",
+  "main": "main.js",
+  "author": "Kelly Korevec",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kelly/electroknit.git"
+  },
+  "license": "BSD",
+  "engine": "node >= 0.12.7"
+}
