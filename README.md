@@ -1,6 +1,6 @@
 # Electroknit
 
-A javascript library for knitting machines. Currently works with [knitic](http://www.knitic.com) boards. Future plans to support OpenKnit and other platforms.
+A javascript library for knitting machines. Currently works with [knitic](http://www.knitic.com) boards. Future plans to support OpenKnit and other platforms. 
 
 ## Install
 
@@ -14,6 +14,12 @@ $ npm install electroknit -g
 $ electroknit -i 'test.jpg' -o 100 -d 
 ````
 
+## App
+
+I've built an Electron app to use with this module that makes it easy to visualize your knitting process. (Coming Soon!)
+- [Github](#)
+- [OSX Binary](#)
+- [Windows Binary](#)
 
 ## Questions?
 
