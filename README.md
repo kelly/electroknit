@@ -14,6 +14,23 @@ $ npm install electroknit -g
 $ electroknit -i 'test.jpg' -o 100 -d 
 ````
 
+```javascript 
+const Electroknit = require('electroknit');
+
+let machine = new Electroknit.Machine();
+let pattern = new Electroknit.Pattern('test.jpg');
+
+machine.on('ready', function() {
+
+  machine.start(pattern);
+
+  machine.on('update:sensors', function(data) {
+    console.log(data);
+  });
+});
+
+````
+
 ## App
 
 I've built an Electron app to use with this module that makes it easy to visualize your knitting process. (Coming Soon!)
