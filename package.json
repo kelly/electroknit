@@ -8,6 +8,18 @@
     "type": "git",
     "url": "http://github.com/kelly/electroknit.git"
   },
+  "bin": {
+    "electroknit": "./bin/electroknit.js"
+  },
+  "dependencies": {
+    "serialport": "2.0.2",
+    "pngparse": "2.0.1",
+    "babel-core": "6.3.17",
+    "underscore": "1.8.3",
+    "jimp": "0.2.21",
+    "commander": "2.9.0",
+    "chalk": "1.1.1"
+  },
   "license": "BSD",
-  "engine": "node >= 0.12.7"
+  "engine": "node >= 4.0.0"
 }
