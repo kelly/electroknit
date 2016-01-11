@@ -49,9 +49,12 @@ machine.on('ready', function() {
 ## App
 
 I've built an Electron app to use with this module that makes it easy to visualize your knitting process. (Coming Soon!)
+
 - [Github](#)
 - [OSX Binary](#)
 - [Windows Binary](#)
+
+![Electroknit App](http://i.imgur.com/9AxJI3u.png)
 
 ## Questions?
 
