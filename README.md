@@ -10,6 +10,21 @@ $ npm install electroknit -g
 
 ## Usage
 
+```
+Usage: electroknit [options]
+
+Options:
+
+  -h, --help          output usage information
+  -i, --image <path>  
+  -p, --port <path>   arduino usb path
+  -o, --offset <n>    offset from right
+  -d, --dither        enable dither image
+  -r, --repeat        repeat the pattern (not supported currently)
+```
+
+## Examples
+
 ```bash
 $ electroknit -i 'test.jpg' -o 100 -d 
 ````
@@ -17,7 +32,7 @@ $ electroknit -i 'test.jpg' -o 100 -d
 ```javascript 
 const Electroknit = require('electroknit');
 
-let machine = new Electroknit.Machine();
+let machine = new Electroknit.Machine(); // will auto-detect device
 let pattern = new Electroknit.Pattern('test.jpg');
 
 machine.on('ready', function() {
