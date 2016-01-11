@@ -4,8 +4,8 @@ const Machine = require('./lib/machine');
 const Pattern = require('./lib/pattern');
 
 const Electroknit = {
-	Machine: Machine,
-	Pattern: Pattern
+  Machine: Machine,
+  Pattern: Pattern
 }
 
 module.exports = Electroknit;
