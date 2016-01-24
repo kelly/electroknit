@@ -50,9 +50,8 @@ machine.on('ready', function() {
 
 I've built an Electron app to use with this module that makes it easy to visualize your knitting process. (Coming Soon!)
 
-- [Github](#)
-- [OSX Binary](#)
-- [Windows Binary](#)
+- [Github](https://github.com/kelly/electroknit-app)
+- [OSX Binary](https://github.com/kelly/electroknit-app/raw/master/binary/Electroknit-darwin-x64.zip)
 
 ![Electroknit App](http://i.imgur.com/9AxJI3u.png)
 
